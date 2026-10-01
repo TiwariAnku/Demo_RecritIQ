@@ -1,0 +1,1 @@
+export default function Drawer({onClose,children}){return <div className="ov" onClick={onClose}><div className="dr" onClick={e=>e.stopPropagation()}><button className="btn sm" style={{float:'right'}} onClick={onClose}>✕ Close</button>{children}</div></div>}
